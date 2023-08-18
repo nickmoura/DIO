@@ -1,0 +1,279 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	height: 4.91%;
+	padding: 0.5% 1%;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.menu-logo {
+	display: flex;
+	width: 146px;
+	height: 24px;
+	/*flex-shrink: 0;*/
+	justify-content: space-between;
+}
+
+.icons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+	padding-right: 20px;
+}
+
+.burgermenu {
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+}
+
+.logoyoutube {
+	width: 90px;
+	height: 20px;
+	flex-shrink: 0;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #F0F0F0;
+}
+
+.searcharea {
+	display: flex;
+	width: 640px;
+	height: 40px;
+	flex-shrink: 0;
+	align-items: center;
+}
+
+.searchbutton {
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+	align-items: center;
+}
+
+.searchfield {
+	width: 536px;
+	height: 40px;
+	flex-shrink: 0;
+	border: 1px solid #CCC;
+	background: #FFF;
+	border-radius: 34px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	padding-left: 10px;
+}
+
+.searchbuttonarea {
+	width: 57px;
+	height: 40px;
+	flex-shrink: 0;
+	border: 1px solid #CCC;
+	background: #F8F8F8;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	border-radius: 34px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.avatar {
+	border-radius: 34px;
+	background: lightgray 50% / cover no-repeat;
+	width: 34px;
+	height: 34px;
+}
+
+#main-container {
+	width: 100%;
+	height: 746px;
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	margin-top: 28px;
+	padding-left: 75px;
+}
+
+#container-video {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 190px;
+	/*margin-right: 24px;*/
+}
+
+
+#video {
+	width: 100%;
+	/*height: 537px;*/
+}
+
+#video img {
+	width: 100%;
+}
+
+#container-lista-videos {
+	width: 30%;
+	height: 1024px;
+	flex-flow: row;
+}
+
+h1 {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#actions {
+	display: flex;
+	width: 100%;
+	/*justify-content: center;*/
+	align-items: center;
+	gap: 36px;
+	/*padding: 0;*/
+}
+
+.logo-dio {
+	width: 42px;
+	height: 42px;
+	border-radius: 42px;
+	background: lightgray 50% / cover no-repeat;
+}
+
+#dio-channel p {
+	color: #515151;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+#dio-channel p strong {
+	color: #000;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.subs-button {
+	display: flex;
+	width: 159px;
+	height: 40px;
+	flex-shrink: 0;
+	border-radius: 2px;
+	background: #C00;
+	color: #FFF;
+	font-size: 14px;
+	font-family: Roboto;
+	font-weight: 600;
+	font-style: normal;
+	text-transform: uppercase;
+	line-height: normal;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#like-count {
+	color: #000;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.views {
+	color: #000;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.description {
+	width: 510px;
+	color: #515151;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-align: justify;
+}
+
+.videoarea {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	margin: 0;
+}
+
+
+.item-video {
+	border: 2px solid rgb(255, 255, 255);
+	height: auto;
+	width: auto;
+	margin-left: 0px;
+	/*margin-right: 10px;*/
+	background-size: cover;
+	background-position: center;
+	gap: 16px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.item-video img {
+	border-radius: 10px;
+}
+
+.video-title {
+	font-size: 13px;
+	text-align: left;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.video-description {
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.item-texto {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border: 2px solid rgb(255, 255, 255);
+}
+
+.item-texto p {
+	word-wrap: break-word;
+	margin: 5px;
+}
+
+@media screen and (max-width: 1050)

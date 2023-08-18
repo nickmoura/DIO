@@ -1,0 +1,91 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+	background-color: plum;
+}
+
+.itemmenu {
+	display: inline-block;
+	padding: 20px 40px;
+}
+
+.links {
+	text-decoration: none;
+	color: black;
+}
+
+.areacodigo {
+	display: inline-block;
+	background: black;
+	color: white;
+	font-family: "Consolas", "Monaco", monospace;
+	padding: 10px;
+	border-radius: 5px;
+	width: 200px;
+	height: 100px;
+}
+
+.areacodigo pre {
+	margin: 0;
+}
+
+/* .areacodigo .nomecodigo {
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #343541;
+	color: white;
+	padding: 5px;
+	border-radius: 3px;
+  } */
+
+.propriedade {
+	color: #049673;
+}
+
+.valor {
+	color: #b42963;
+}
+
+.exemplo {
+width: 100px;
+height: 100px;
+margin: 10px;
+padding: 10px;
+border-radius: 4px;
+}
+
+/* Exemplos in-line */
+
+.inline {
+	display: inline-block
+}
+
+#elemento-1 {
+	background-color: orange;
+}
+
+#elemento-2 {
+	background-color: palevioletred;
+}
+
+#elemento-3 {
+	background-color: palegreen;
+}
+
+/* Exemplos block */
+
+#elemento-4 {
+	background-color: paleturquoise;
+}
+
+#elemento-5 {
+	background-color: violet;
+}
+
+#elemento-6 {
+	background-color: blueviolet;
+}
