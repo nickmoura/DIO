@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+	font-family: Lato, sans-serif;
+	background: black;
+	color: #E0BA6E;
+	margin: 15px;
+}
+
+.titulo {
+	color: #E6C063;
+}
+
+.subtitulo {
+	color: #E6C063;
+}
+
+.conheca {
+	border: 1px solid #E0BA6E;
+	border-radius: 10px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+
+.nomebanda {
+	/*display: block;*/
+	background-color: #574C24;
+	color: #E0BA6E;
+	width: 15vw;
+	cursor: pointer;
+	border-radius: 3px;
+	border: 1px solid #4D4D4D;
+	margin: 2px 0 0 0;
+}
+
+.nomebanda:hover {
+	background-color: #a39668;
+	color: #382602;
+	border: 1px solid #4f3e04;
+}
+
+.nomebanda:after {
+	background-color: #a39668;
+	color: #382602;
+}
+
+.caixabanda {
+	border: 1px solid #E0BA6E;
+	border-radius: 10px;
+}
+
+fieldset {
+	margin-top: 20px;
+	/*border: 1px solid #E0BA6E;
+	border-radius: 10px;*/
+	padding-left: 15px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	gap: 32px;
+	padding: 10px;
+	color: #E6C063;
+	margin-bottom: 20px;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+	margin-left: 10px;
+	height: 3vh;
+	padding-left: 10px;
+}
+
+.linha {
+	margin: 10px;
+}
+
+button {
+	background-color: #E0BA6E;
+	color: #382602;
+	border: 1px solid #382602;
+	border-radius: 10px;
+	width: 6vw;
+	height: 3vh;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 42px;
+	border-top: 0.4px solid  #E0BA6E;
+	padding: 32px;
+	color:  #E0BA6E;
+	text-align: center;
+}
+
+footer p {
+	margin: 0 auto;
+}
+
+footer a {
+	text-decoration: none;
+	color: #E0BA6E;
+}
+
+footer a:visited {
+	color: #E0BA6E;
+}
